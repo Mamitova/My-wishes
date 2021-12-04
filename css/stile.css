@@ -38,10 +38,31 @@ a {
 .nav {
   position: fixed;
   background-color: #f2f2f2;
-  border: 1px solid;
-  top: 48px;
+  top: 0px;
   right: 0;
+  width: 100%;
+  z-index: 999;
 }
+.nav-menu {
+  width: 1440px;
+  margin: 0 auto;
+  text-align: right;
+  padding: 48px 0;
+}
+
+.nav-link {
+  background-color: #f2f2f2;
+  padding: 10px 32px;
+  box-shadow: inset 0px -5px 10px #ffffff,
+    inset 0px 4px 15px rgba(31, 56, 101, 0.15);
+  border-radius: 20px;
+  margin-left: 8px;
+}
+.nav-link:hover {
+  box-shadow: inset 0px -6px 10px #ffffff,
+    inset 0px 4px 15px rgba(31, 56, 101, 0.15);
+}
+
 .header {
   background-color: #fec2c4;
   flex: 0 1 360px;
