@@ -35,6 +35,12 @@ a {
   margin: 0 auto;
   justify-content: space-between;
 }
+.logo {
+  font-size: 48px;
+  line-height: 57px;
+  color: #fff;
+  padding: 40px 0;
+}
 .nav {
   position: fixed;
   background-color: #f2f2f2;
@@ -63,8 +69,35 @@ a {
 }
 
 .header {
-  background-color: #fec2c4;
   flex: 0 1 360px;
+  position: relative;
+}
+.head-conteiner {
+  z-index: 20;
+  position: relative;
+  text-align: center;
+  padding: 0 80px;
+}
+
+.header:before {
+  content: "";
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: -240px;
+  left: -263px;
+  background: url("../img/decor1.svg") no-repeat;
+  z-index: 0;
+}
+.header:after {
+  content: "";
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  left: -100px;
+  background: url("../img/decor2.svg") no-repeat;
+  z-index: 0;
 }
 .about {
   padding-top: 205px;
