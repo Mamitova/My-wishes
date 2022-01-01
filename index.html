@@ -12,8 +12,11 @@
         <div class="hero-container">
             <header class="header">
                 <div class="head-conteiner">
-                    <h1 class="logo"> <a href="#">My wishes</a> </h1>
-                    <img class="avatar" src= "img/250932754_1578917579127439_5571674736171107218_n.jpg" width="200" alt="avatar">
+                    <h1 class="logo"> My wishes </h1>
+                    <div class="avatar-conteiner"> 
+                        <img class="avatar" src= "img/750px.jpg" width="250" alt="avatar">
+                    </div>
+                    
                     <a class="btn-cotial" href="#">fb</a>
                     <a class="btn-cotial" href="#">inst</a>
                 </div>
@@ -36,7 +39,15 @@
                 </div>
                 <div class="counter">
                 <span>До моего Дня Рождения осталось:</span> 
-                <span>352d 14h 22m 35s</span>
+                <span class="counter-box">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2859 37.7146H25.7145V41.1432H22.2859V37.7146Z" fill="#FC6A57" />
+                        <path d="M6.85737 22.2859H10.2859V25.7145H6.85737V22.2859Z" fill="#FC6A57" />
+                        <path d="M37.7145 22.2859H41.1431V25.7145H37.7145V22.2859Z" fill="#FC6A57" />
+                        <path d="M40.9708 7.0295C36.8983 2.93386 31.4766 0.457315 25.7145 0.0607507V0H22.2859V10.2858H25.7145V3.5006C36.2584 4.37468 44.5716 13.2343 44.5716 24.0002C44.5716 35.3434 35.3433 44.5719 24.0002 44.5719C12.6571 44.5719 3.4288 35.3434 3.4288 24.0002C3.42644 21.2939 3.95919 18.6138 4.99641 16.1141C6.03362 13.6144 7.55482 11.3445 9.47252 9.43488L21.8608 25.065L24.5477 22.9354L9.92166 4.48161L8.57102 5.61627C4.86691 8.72513 2.18834 12.8805 0.8863 17.5378C-0.415738 22.195 -0.280504 27.137 1.27428 31.7162C2.82906 36.2953 5.73087 40.2979 9.59945 43.1995C13.468 46.1012 18.1229 47.7665 22.9542 47.9772C27.7854 48.1879 32.5676 46.9343 36.6741 44.3805C40.7807 41.8267 44.02 38.0919 45.9675 33.6656C47.9151 29.2392 48.4801 24.3278 47.5885 19.5748C46.697 14.8218 44.3904 10.4491 40.971 7.0295H40.9708Z"
+                            fill="#FC6A57" />
+                    </svg>
+                    352d 14h 22m 35s</span>
                 </div>
             </div>
         </div>   
@@ -161,12 +172,21 @@
                 </div>
             </div>
         </div>
+        <div>
+            <h2 class="title color-primary">Поздравить с Днем Рождения</h2>
+            <form action="#" method="post" id="main-form">
+                <input type="text" name="name" placeholder="Name">
+                <input type="tel" name="telnamber" placeholder="+380">
+                <input type="textarea" placeholder="Тут поздравления">
+                <input type="button" name="button" value="Send">
+            </form>
+        </div>    
     </section>
     <footer class="footer">
         <a class="footer-logo" href="My wishes"></a>
         <a class="btn-cotial" href="#">fb</a>
         <a class="btn-cotial" href="#">inst</a>
     </footer>
-    
+        
 </body>
 </html>
